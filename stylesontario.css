@@ -1,0 +1,73 @@
+
+/* adjust the font, font size, position and width of the paragraph */
+p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    position: relative;
+    top:500px;
+    width: 100%;
+    max-width: 700px; 
+    margin: auto;
+    text-align: center;
+
+
+}
+
+/* adjust the font, font size, position, height, determine no border, create a shadow in the h1 */
+h2 {
+    font-family: 'Corinthia', cursive;
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+    top:10px;
+    height: 0px;
+    border:0px;
+    box-shadow:2px 3px 5px #BBA53D;
+    filter: drop-shadow(2px 3px 5px #BBA53D);
+
+
+}
+
+/* determine the position of the image so it can e displayed in the center alligned with the text*/
+img {
+    position: relative;
+    top:-380px;
+    max-width: 600px; 
+    margin-left: 29vw; 
+    
+}
+
+/* adjust the font, font size and position of the footer so it can be displayed in the bottom of the page */
+footer {
+    font-family: Century Gothic;
+    font-size: 12px;
+    position: relative;
+    top: 200px;
+    
+   }
+
+    /* color of the background + add space after the footer*/
+    html {  
+        background-color: #E2D7D7;
+        margin-bottom: 250px;
+    
+    
+       }
+
+     /*create the responsive design for the container in smaller screens, so when the width is 768px or higher, the content will be displayed
+   in a single column */
+   @media (max-width: 768px) {
+    h2 {
+        font-size: 60px; 
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+      /*adjust the position of the image when displayed in smaller screens */
+    img {
+        top: -500px;
+        margin-left: 5%;
+    }
+}
+
